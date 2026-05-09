@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maneesha Kummari | AI & Python Developer</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+background:#0a0a0f;
+color:white;
+font-family:Arial, sans-serif;
+line-height:1.7;
+}
+
+nav{
+padding:20px 60px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:#111118;
+position:sticky;
+top:0;
+}
+
+nav h2{
+color:#7c6af7;
+}
+
+nav ul{
+display:flex;
+gap:25px;
+list-style:none;
+}
+
+nav ul li a{
+text-decoration:none;
+color:white;
+}
+
+.hero{
+min-height:100vh;
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:80px 60px;
+}
+
+.hero-text h1{
+font-size:70px;
+margin-bottom:10px;
+}
+
+.hero-text h2{
+color:#7c6af7;
+margin-bottom:20px;
+}
+
+.hero-text p{
+max-width:600px;
+color:#cfcfcf;
+margin-bottom:30px;
+}
+
+.buttons a{
+display:inline-block;
+padding:12px 25px;
+margin-right:15px;
+background:#7c6af7;
+color:white;
+text-decoration:none;
+border-radius:8px;
+}
+
+.hero-img img{
+width:320px;
+height:320px;
+border-radius:50%;
+object-fit:cover;
+border:5px solid #7c6af7;
+}
+
+section{
+padding:70px 60px;
+}
+
+.section-title{
+font-size:40px;
+margin-bottom:30px;
+color:#7c6af7;
+}
+
+.card{
+background:#16161f;
+padding:25px;
+border-radius:14px;
+margin-bottom:20px;
+}
+
+.skills{
+display:flex;
+flex-wrap:wrap;
+gap:15px;
+}
+
+.skill-tag{
+background:#222230;
+padding:10px 18px;
+border-radius:30px;
+}
+
+.project{
+margin-bottom:25px;
+}
+
+.project h3{
+margin-bottom:10px;
+color:#4eeac8;
+}
+
+.project p{
+color:#cfcfcf;
+margin-bottom:10px;
+}
+
+.tech{
+display:flex;
+gap:10px;
+flex-wrap:wrap;
+}
+
+.tech span{
+background:#222230;
+padding:8px 15px;
+border-radius:20px;
+font-size:14px;
+}
+
+ul{
+padding-left:20px;
+}
+
+li{
+margin-bottom:10px;
+}
+
+footer{
+text-align:center;
+padding:30px;
+background:#111118;
+margin-top:40px;
+}
+
+@media(max-width:768px){
+.hero{
+flex-direction:column;
+text-align:center;
+}
+
+.hero-img{
+margin-top:40px;
+}
+
+.hero-text h1{
+font-size:45px;
+}
+}
+</style>
+</head>
+<body>
+
+<nav>
+<h2>MK.</h2>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#experience">Experience</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<section class="hero">
+<div class="hero-text">
+<h1>Maneesha Kummari</h1>
+<h2>AI & Python Developer</h2>
+<p>
+AI & Python Developer passionate about building intelligent real-time applications using Machine Learning, NLP, and Computer Vision.
+</p>
+
+<div class="buttons">
+<a href="#projects">View Projects</a>
+<a href="#">Download Resume</a>
+<a href="#">GitHub</a>
+</div>
+</div>
+
+<div class="hero-img">
+<img src="manisha.jpg" alt="Profile Image">
+</div>
+</section>
+
+<section id="about">
+<h2 class="section-title">About Me</h2>
+
+<div class="card">
+<p>
+I am a motivated and hardworking B.Tech student with skills in Python, Full Stack Development, Data Science, and Machine Learning. I have worked on projects like Resume Analyzer, Driver Drowsiness Detection, and Job Recommendation System, which helped me improve my problem-solving and technical skills. I am eager to learn new technologies, work in a challenging environment, and contribute to organizational growth while enhancing my professional knowledge and experience.
+</p>
+</div>
+</section>
+
+<section id="skills">
+<h2 class="section-title">Skills</h2>
+
+<div class="card">
+<div class="skills">
+<span class="skill-tag">Python</span>
+<span class="skill-tag">SQL</span>
+<span class="skill-tag">Machine Learning</span>
+<span class="skill-tag">NLP</span>
+<span class="skill-tag">OpenCV</span>
+<span class="skill-tag">Flask</span>
+<span class="skill-tag">REST APIs</span>
+<span class="skill-tag">GitHub</span>
+<span class="skill-tag">HTML</span>
+<span class="skill-tag">CSS</span>
+<span class="skill-tag">VS Code</span>
+</div>
+</div>
+</section>
+
+<section id="projects">
+<h2 class="section-title">Projects</h2>
+
+<div class="card project">
+<h3>Resume Analyzer</h3>
+<p>
+Developed a Resume Analyzer application that automatically analyzes resumes and extracts important information such as skills, education, experience, certifications, and contact details. The system compares candidate skills with job descriptions and provides matching scores and recommendations. Implemented using Python with libraries like NLP, Machine Learning, and Flask/Django for backend processing. The project helps recruiters quickly screen resumes and identify suitable candidates efficiently.
+</p>
+<div class="tech">
+<span>Python</span>
+<span>NLP</span>
+<span>Machine Learning</span>
+</div>
+</div>
+
+<div class="card project">
+<h3>Driver Drowsiness Detection System</h3>
+<p>
+Developed a Driver Drowsiness Detection System using Deep Learning and Computer Vision techniques to detect driver fatigue in real time. The system monitors eye movements and facial expressions through a webcam and alerts the driver when drowsiness is detected. Implemented using Python, OpenCV, and Convolutional Neural Networks (CNN) for accurate detection and improved road safety.
+</p>
+<div class="tech">
+<span>Python</span>
+<span>OpenCV</span>
+<span>Computer Vision</span>
+</div>
+</div>
+
+<div class="card project">
+<h3>Job Recommendation System</h3>
+<p>
+Developed a Job Recommendation System that suggests suitable job opportunities to users based on their skills, education, interests, and experience. The system analyzes user profiles and matches them with relevant job postings using Machine Learning and recommendation algorithms. Built with Python and web technologies to provide personalized job recommendations and improve the job search process.
+</p>
+<div class="tech">
+<span>Python</span>
+<span>Machine Learning</span>
+<span>Recommendation System</span>
+</div>
+</div>
+</section>
+
+<section id="experience">
+<h2 class="section-title">Experience</h2>
+
+<div class="card">
+<h3>Python Full Stack Intern – EduSkills</h3>
+<ul>
+<li>Backend development using Python</li>
+<li>REST API integration</li>
+<li>Database handling</li>
+<li>Frontend using HTML & CSS</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Data Science Intern – SkillDzire</h3>
+<ul>
+<li>Data preprocessing</li>
+<li>Data visualization</li>
+<li>ML concepts</li>
+<li>Python analysis tasks</li>
+</ul>
+</div>
+</section>
+
+<section id="achievements">
+<h2 class="section-title">Achievements</h2>
+
+<div class="card">
+<ul>
+<li>Built 3+ AI-based projects</li>
+<li>Completed 2 internships</li>
+<li>Strong understanding of Python and Machine Learning</li>
+<li>Built real-time applications using OpenCV and NLP</li>
+</ul>
+</div>
+</section>
+
+<section id="education">
+<h2 class="section-title">Education</h2>
+
+<div class="card">
+<h3>B.Tech – Computer Science Engineering (AI)</h3>
+<p>SVR Engineering College</p>
+<p>2022 – 2026</p>
+<p>CGPA: 7.5</p>
+</div>
+</section>
+
+<section id="certifications">
+<h2 class="section-title">Certifications</h2>
+
+<div class="card">
+<ul>
+<li>Software Engineering – NPTEL</li>
+<li>Data Processing & Visualization – Accenture</li>
+<li>Python Full Stack – EduSkills</li>
+<li>Automation Explorer – UiPath</li>
+<li>Data Science – SkillDzire</li>
+<li>R Programming Certification</li>
+</ul>
+</div>
+</section>
+
+<section id="contact">
+<h2 class="section-title">Contact</h2>
+
+<div class="card">
+<p>Email: kummarimanisha11@gmail.com</p>
+<p>Phone: 6281849862</p>
+<p>LinkedIn: linkedin.com/in/maneesha-kummari-b3359b3b8</p>
+<p>GitHub: github.com/yourusername</p>
+</div>
+</section>
+
+<footer>
+<p>© 2026 Maneesha Kummari | AI & Python Developer</p>
+</footer>
+
+</body>
+</html>
